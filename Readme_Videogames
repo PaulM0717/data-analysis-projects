@@ -1,0 +1,21 @@
+Data set source: https://www.kaggle.com/datasets/henrylin03/metacritic-games-user-reviews-and-metascores/data This project showcases my skills on handlind missing values and duplicates on a video game data set. 
+The process begun by checking the data set for missing values and duplicates as well as the shape and head to learn the columns of it. 
+The Data contained both duplicates and missing values, for duplicates I confirmed that they exist and removed them. As for missing values, they were filled with the mean of that same column.
+
+Key Findings
+The distribution of Metascores is concentrated around the 70-80 range, with a peak around 70. This indicates that most games receive moderately high scores from critics.
+The Userscores are more spread out, with a peak around 6.5-7.5. This suggests that user ratings are slightly lower and more varied compared to critic scores.
+The mean Metascore is 70.19, and the mean Userscore is 6.74, indicating that critics generally rate games higher than users.
+The standard deviation for Metascores is 5.76, while for Userscores it is 0.79, showing that critic scores vary more than user scores.
+The minimum Metascore is 8, and the minimum Userscore is 0, indicating some extreme outliers in the data.
+Nintendo 64 has the highest average Metascore (74.87), indicating that games on this platform are highly rated by critics.
+Dreamcast has the highest average Userscore (7.77), suggesting that users particularly enjoy games on this platform.
+Modern platforms like PlayStation 5 and Xbox Series X also have high average Metascores (71.08 and 71.53, respectively), showing that newer platforms maintain high critic ratings.
+Critics and users generally agree on the quality of games, as platforms with high Metascores also tend to have high Userscores (e.g., Nintendo 64, Dreamcast).
+However, there are some discrepancies, such as PlayStation 4 having a relatively high Metascore (70.18) but a lower Userscore (6.52), indicating a potential gap between critic and user opinions.
+
+Tools Used
+Python
+Pandas
+Matplotlib
+Seaborn
